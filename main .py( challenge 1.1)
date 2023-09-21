@@ -13,7 +13,6 @@ def fact_rec(n):
 
     return n * fact_rec(n - 1)
 
-
 number = int(input("Enter the value :"))
 result = fact_rec(number)
 print("The factorial of {} is {}.".format(number, result))
